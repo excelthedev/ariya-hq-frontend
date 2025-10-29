@@ -230,6 +230,75 @@ export default function Home() {
           <span className="text-[#d0771d]"> your</span> event with confidence
         </div>
       </section>
+
+      <section className="text-[#000000] bg-[#C7D5D9] p-24 flex flex-col gap-18">
+        <div className="flex items-center flex-col gap-2">
+          <p className=" font-bold text-5xl">Always By Your Side</p>
+          <p className="text-[#64615f] text-xl">
+            We are with you and by you through out!
+          </p>
+        </div>
+        <div className="grid item-center justify-between grid-cols-4 gap-x-16 gap-y-16">
+          <p>djfjfjf</p>
+        </div>
+
+        <div className="flex items-center justify-center text-white">
+          <button className="bg-[#D0771E] py-6 px-26 rounded-lg">
+            See More Venues
+          </button>
+        </div>
+      </section>
+
+      <section className="text-[#000000] bg-[#D0391E] p-24 flex flex-col gap-18">
+        <div className="flex items-center flex-col gap-2">
+          <p className=" font-bold text-5xl text-white">Create Event Website</p>
+          <p className="text-white text-xl">
+            Standout, be unique by creating website for your events
+          </p>
+        </div>
+        <div className="grid item-center justify-between grid-cols-4 gap-x-16 gap-y-16">
+          <p>djfjfjf</p>
+        </div>
+
+        <div className="flex items-center justify-center text-white">
+          <button className="bg-white py-6 px-26 rounded-lg">
+            See More Websites
+          </button>
+        </div>
+      </section>
+
+      <section className="text-[#000000] bg-[#F4EAE0] p-24 flex flex-col gap-18">
+        <div className="flex items-center flex-col gap-2">
+          <p className=" font-bold text-5xl text-[#262626]">
+            Everybody Loves Us
+          </p>
+          <p className="text-[#262626] text-xl">
+            Standout, be unique by creating website for your events
+          </p>
+        </div>
+        <div className="grid item-center justify-between grid-cols-4 gap-x-16 gap-y-16">
+          <p>djfjfjf</p>
+        </div>
+      </section>
+
+      <section className="text-[#000000] bg-[#262626] p-24 flex flex-col gap-18">
+        <div className="flex items-center flex-col gap-2">
+          <p className=" font-bold text-5xl text-white">Join Our Community</p>
+          <p className="text-white text-xl">
+            Connect with fellow event planners, share inspiration, and create
+            lasting memories together.
+          </p>
+        </div>
+        <div className="grid item-center justify-between grid-cols-4 gap-x-16 gap-y-16">
+          <p>djfjfjf</p>
+        </div>
+
+        <div className="flex items-center justify-center text-[#262626]">
+          <button className="bg-white py-6 px-26 rounded-lg">
+            Join our community
+          </button>
+        </div>
+      </section>
     </div>
   );
 }
